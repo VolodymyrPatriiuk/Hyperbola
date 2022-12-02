@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.jface.notifications
+Bundle-Version: 0.4.0.v20211004-0555
+Bundle-ClassPath: org.eclipse.jface.notifications_0.4.0.v20211004-0555.jar
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Export-Package: org.eclipse.jface.notifications,
+ org.eclipse.jface.notifications.internal;x-internal:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.18.0",
+ org.eclipse.jface;bundle-version="3.20.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Build-Jdk-Spec: 11
+Eclipse-SourceReferences: scm:git:https://git.eclipse.org/r/platform/eclipse.platform.ui.git;path="bundles/org.eclipse.jface.notifications";tag="I20211004-2030";commitId=8eb51ba030cd51f71273a028d33d623b8943ed35
+Created-By: Maven Archiver 3.5.0
+Automatic-Module-Name: org.eclipse.jface.notifications
